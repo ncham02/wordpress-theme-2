@@ -2,9 +2,17 @@
 
 <div class="fill">
 
-    <section class="heading-text">
-      <h1><?php the_title();?></h1>
-      <p><?php the_content();?></p>
+    <section class="main">
+
+      <div class="main-image">
+        <img class="main-image-img" src="images/nia-callig.jpg" alt="">
+      </div>
+
+      <div class="main-content">
+        <h1 class="main-text-h1"><?php the_title();?></h1>
+        <p class="main-text-p"><?php the_content();?></p>
+      </div>
+
     </section>
   </section>
 
