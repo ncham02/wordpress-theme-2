@@ -1,0 +1,163 @@
+/*
+Theme Name: Beautiful Theme
+Author: Nia
+Version: 1.0
+*/
+
+
+body {
+  font-family: Verdana, sans-serif;
+  padding: 0;
+  margin: 0;
+  color: #618F71;
+}
+
+.fill{
+  padding: 0;
+  height: 100%;
+}
+
+.nav-bar{
+  display: flex;
+  align-items: center;
+  margin: 3rem auto;
+}
+
+.nav-link{
+  margin: auto;
+}
+
+.nav-link a{
+  color: inherit;
+  text-decoration: none;
+}
+
+.nav-link a:hover{
+  opacity: 0.5;
+}
+
+.main{
+  display: flex;
+  flex-direction: row-reverse;
+  margin: 8rem 0 0 0;
+}
+
+.main-content,.main-image{
+  width: 100%;
+}
+
+.main-content{
+  margin-left: 10rem;
+}
+
+.main-text-h1{
+  font-size: 3rem;
+  font-weight: normal;
+  display: inline;
+}
+
+.main-text-p{
+  font-size: 1.5rem;
+}
+
+.lighter{
+  opacity: 0.5;
+}
+
+.lightest{
+  opacity: 0.25;
+}
+
+.main-image-img{
+  max-width: 70%;
+  border: 3px solid #618F71;
+}
+
+.footer{
+  margin-top: 10rem;
+  height: 10rem;
+  background-color: #456651;
+  padding: 1rem;
+  text-align: center;
+}
+
+.footer-text{
+  color: #FFF;
+  font-size: 0.7rem;
+}
+
+a.footer-link{
+  text-decoration: none;
+  color: #fff;
+  opacity: 0.5;
+}
+
+.social-media{
+  margin: 2rem 0;
+}
+
+.social-media a{
+  margin: 0 1rem;
+}
+
+
+.attribution{
+  color: #fff;
+  font-size: 0.5rem;
+  margin: 2rem 0;
+}
+
+@viewport{
+    zoom: 1.0;
+    width: device-width;
+}
+
+@media (max-width: 1179px) {
+  .main-content{
+    min-width: 450px;
+  }
+
+  .main-text-h1{
+    font-size: 2.5rem;
+  }
+
+  .main-text-p{
+    font-size: 1rem;
+  }
+}
+
+@media (max-width: 870px) {
+
+  .nav-link a{
+    font-size: 0.7rem;
+  }
+
+  .main{
+    display: block;
+    margin: 0;
+  }
+
+  .main-image,.main-content{
+    margin: 0 auto;
+    padding: 0;
+  }
+
+  .main-content{
+    margin-top: 4rem;
+    text-align: center;
+    background-color: #fff;
+  }
+
+  img.main-image-img{
+    border: none;
+    object-fit: cover;
+    min-width: 100%;
+    height: 500px;
+  }
+
+  .social-media img{
+    width: 36px;
+  }
+
+
+}
