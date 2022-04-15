@@ -21,17 +21,11 @@ add_theme_support('menus');
 
 add_theme_support('post-thumbnails');
 
-register_nav_menus(
+function wpb_custom_new_menu() {
+  register_nav_menu('my-custom-menu',__( 'My Custom Menu' ));
+}
+add_action( 'init', 'wpb_custom_new_menu' );
 
-  array(
-
-    'top_menu' => __('Top Menu', 'beautiful-theme'),
-    'footer-menu' => __('Footer Menu', 'beautiful-theme')
-
-  )
-
-
-);
 
 add_image_size('smallest', 300, 300, true);
 add_image_size('largest', 800, 800, true);
