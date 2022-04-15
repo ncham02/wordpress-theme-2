@@ -5,7 +5,7 @@
     <section class="main">
 
       <div class="main-image">
-        <img class="main-image-img" src="<?php echo base_url()?>/images/nia-callig.jpg" alt="">
+        <img class="main-image-img" src="<?php echo get_stylesheet_directory_uri();?>/images/nia-callig.jpg" alt="">
       </div>
 
       <div class="main-content">
