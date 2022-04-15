@@ -17,5 +17,3 @@
       );?>
     </nav>
     </section>
-
-    <section class="main">
