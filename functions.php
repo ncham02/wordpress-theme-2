@@ -25,8 +25,8 @@ register_nav_menus(
 
   array(
 
-    'top_menu' => __('Top Menu', 'ugly-theme'),
-    'footer-menu' => __('Footer Menu', 'ugly-theme')
+    'top_menu' => __('Top Menu', 'beautiful-theme'),
+    'footer-menu' => __('Footer Menu', 'beautiful-theme')
 
   )
 
