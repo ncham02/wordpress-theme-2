@@ -22,7 +22,7 @@ add_theme_support('menus');
 add_theme_support('post-thumbnails');
 
 function wpb_custom_new_menu() {
-  register_nav_menu('my-custom-menu',__( 'My Custom Menu' ));
+  register_nav_menu('beautiful-theme-top-menu',__( 'Beautiful Theme Top Menu' ));
 }
 add_action( 'init', 'wpb_custom_new_menu' );
 
