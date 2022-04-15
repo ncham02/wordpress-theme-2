@@ -1,7 +1,7 @@
 /*
 Theme Name: Beautiful Theme
 Author: Nia
-Version: 1.57
+Version: 1.58
 */
 
 
@@ -26,7 +26,7 @@ body {
   margin: auto;
 }
 
-.nav-bar a{
+.nav-link a{
   color: inherit;
   text-decoration: none;
   list-style-type: none;
