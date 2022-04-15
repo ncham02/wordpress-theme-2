@@ -18,12 +18,8 @@ body {
   width: 100%;
 }
 
-.nav-bar{
-
-}
-
-.nav-link{
-
+div.beaut_theme_top_menu ul{
+  background-color: red;
 }
 
 

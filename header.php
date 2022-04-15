@@ -11,8 +11,8 @@
             <nav>
     <?php wp_nav_menu(
         array(
-          'theme_location' => 'top_menu',
-          'menu_class' => 'nav-link',
+          'theme_location' => 'beautiful-theme-top-menu',
+          'menu_class' => 'beaut_theme_top_menu',
         )
       );?>
     </nav>
