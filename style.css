@@ -1,7 +1,7 @@
 /*
 Theme Name: Beautiful Theme
 Author: Nia
-Version: 1.51
+Version: 1.52
 */
 
 
@@ -15,14 +15,15 @@ body {
 .fill{
   padding: 0;
   height: 100%;
+  width: 100%;
 }
 
-.nav-bar{
+/* .nav-bar{
   width: 100%;
   z-index: 9999;
   align-items: center;
   margin: 3rem auto;
-}
+} */
 
 .nav-link{
   margin: auto;
