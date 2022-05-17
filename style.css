@@ -64,6 +64,10 @@ ul.nav-link{
   margin-left: 10rem;
 }
 
+.page-content{
+  margin-top: 2rem;
+}
+
 .main-text-h1{
   font-size: 3rem;
   font-weight: normal;

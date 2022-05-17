@@ -2,7 +2,7 @@
 
 <div class="fill">
 
-    <section class="heading-text">
+    <section class="main-content page-content">
       <h1><?php the_title();?></h1>
       <p><?php the_content();?></p>
     </section>
